@@ -4,6 +4,7 @@ export const THEME = {
     GREEN: "#27AE60",
     GRAY1: "#828282",
     GRAY2: "#535353",
+    GRAY3: "#212121",
   },
   FONT_SIZE: {
     TITLE: 48,

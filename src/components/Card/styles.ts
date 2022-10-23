@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
   },
   title: {
     fontSize: THEME.FONT_SIZE.SM,
-    color: THEME.COLORS.GRAY2,
+    color: THEME.COLORS.GRAY1,
     fontWeight: "bold",
   },
   footer: {

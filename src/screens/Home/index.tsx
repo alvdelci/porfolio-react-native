@@ -7,7 +7,8 @@ import { styles } from './styles';
 import icon1 from '../../assets/network.png';
 import icon2 from '../../assets/dev.png';
 import icon3 from '../../assets/box.png';
-import avatar from '../../assets/me.jpeg';
+import avatar from '../../assets/me.jpg';
+import Input from '../../components/Input';
 
 export default function Home() {
     return (
@@ -23,8 +24,8 @@ export default function Home() {
                 </View>
                 <View style={styles.presentation}>
                     <View>
-                        <Text style={styles.title}>Hi, I am{`\n`}Rafithy Dev</Text>
-                        <Text style={styles.subtitle}>Fullstack Developer</Text>
+                        <Text style={styles.title}>Hi, I am{`\n`}Rafithy</Text>
+                        <Text style={styles.subtitle}>Software Development</Text>
 
                         <View style={styles.presentationButtons}>
                             <TouchableOpacity style={styles.downloadButton}>
@@ -46,8 +47,8 @@ export default function Home() {
 
                 <View style={styles.info}>
                     <InfoItem title="Full Name" subtitle='Rafithy' />
-                    <InfoItem title="Email Address" subtitle='rafithydev@gmail.com' />
-                    <InfoItem title="Website" subtitle='alvdelci.github.io' />
+                    <InfoItem title="Email Address" subtitle='contato@rafithy.com' />
+                    <InfoItem title="Website" subtitle='rafithy.com' />
                 </View>
 
                 <Text style={styles.centeredTitle}>What i do</Text>
@@ -80,7 +81,10 @@ export default function Home() {
                 </View>
 
                 <Text style={styles.centeredTitle}>Get in touch</Text>
-                <Text style={styles.centeredTitle}>Get in touch</Text>
+                <View>
+                    <Text>Inputs</Text>
+                    <Input />
+                </View>
 
             </ScrollView>
         </SafeAreaView>

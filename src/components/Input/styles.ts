@@ -1,12 +1,12 @@
 import { StyleSheet } from "react-native";
+import { THEME } from "../../theme";
 
 export const styles = StyleSheet.create({
   container: {
-    width: 100,
-    height: 50,
-    borderColor: "#fff",
+    width: 175,
+    height: 30,
+    borderBottomWidth: 0.5,
+    borderColor: THEME.COLORS.GRAY1,
   },
-  input: {
-    width: 100,
-  },
+  input: {},
 });

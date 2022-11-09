@@ -114,4 +114,19 @@ export const styles = StyleSheet.create({
     color: THEME.COLORS.GREEN,
     fontSize: 11,
   },
+  getInTouchRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginBottom: 20,
+  },
+  getInTouchContainer: {
+    padding: 8,
+  },
+  footer: {
+    marginTop: 20,
+    marginBottom: 8,
+    color: THEME.COLORS.GRAY1,
+    alignSelf: "center",
+    fontSize: 12,
+  },
 });

@@ -9,6 +9,8 @@ import icon2 from '../../assets/dev.png';
 import icon3 from '../../assets/box.png';
 import avatar from '../../assets/me.jpg';
 import Input from '../../components/Input';
+import TextArea from '../../components/TextArea';
+import Button from '../../components/Button';
 
 export default function Home() {
     return (
@@ -81,10 +83,23 @@ export default function Home() {
                 </View>
 
                 <Text style={styles.centeredTitle}>Get in touch</Text>
-                <View>
-                    <Text>Inputs</Text>
-                    <Input />
+                <View style={styles.getInTouchContainer}>
+                    <View style={styles.getInTouchRow}>
+                        <Input label='Name' />
+                        <Input label='Last Name' />
+                    </View>
+                    <View style={styles.getInTouchRow}>
+                        <Input label='Email' />
+                        <Input mask='(99) 99999 - 9999' label='Phone Number' />
+                    </View>
+                    <View style={styles.getInTouchRow}>
+                        <TextArea label='Message' />
+                    </View>
+                    <View style={styles.getInTouchRow}>
+                        <Button text='Submit now' />
+                    </View>
                 </View>
+                <Text style={styles.footer}>© Rafithy 2022</Text>
 
             </ScrollView>
         </SafeAreaView>

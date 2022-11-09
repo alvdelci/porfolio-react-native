@@ -7,7 +7,7 @@ import { styles } from './styles';
 import icon1 from '../../assets/network.png';
 import icon2 from '../../assets/dev.png';
 import icon3 from '../../assets/box.png';
-import avatar from '../../assets/me.jpg';
+import avatar from '../../assets/me.jpeg';
 import Input from '../../components/Input';
 import TextArea from '../../components/TextArea';
 import Button from '../../components/Button';
@@ -27,7 +27,7 @@ export default function Home() {
                 <View style={styles.presentation}>
                     <View>
                         <Text style={styles.title}>Hi, I am{`\n`}Rafithy</Text>
-                        <Text style={styles.subtitle}>Software Development</Text>
+                        <Text style={styles.subtitle}>Fullstack Developer</Text>
 
                         <View style={styles.presentationButtons}>
                             <TouchableOpacity style={styles.downloadButton}>

@@ -23,6 +23,8 @@ export default function Input(props: InputProps) {
                     colorBlurred: THEME.COLORS.GRAY1,
                     topFocused: -15,
                     leftBlurred: -1,
+                    fontSizeBlurred: 12,
+                    fontSizeFocused: 12
                 }}
                 value={value}
                 onChangeText={value => setValue(value)}
